@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class OddlyLookingThing<T, V extends Number> {
 
-    String label;
-    long id;
-    int[][] anchorPoints;
-    double area;
-    T storedValue;
-    V[] numbers;
+    private final String label;
+    private final long id;
+    private final int[][] anchorPoints;
+    private final double area;
+    private final T storedValue;
+    private final V[] numbers;
 
     private OddlyLookingThing(String label, long id, int[][] anchorPoints, double area, T storedValue, V... numbers) {
         this.label = label;
