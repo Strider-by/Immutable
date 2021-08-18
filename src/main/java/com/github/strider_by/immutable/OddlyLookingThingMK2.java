@@ -36,7 +36,7 @@ public class OddlyLookingThingMK2<T extends Cloneable, V extends Number> {
         
         T storedValueCopy = clone(storedValue);
 
-        return new OddlyLookingThing(label, id, anchorPointsCopy, area, storedValueCopy, numbersCopy);
+        return new OddlyLookingThingMK2(label, id, anchorPointsCopy, area, storedValueCopy, numbersCopy);
     }
 
     public String getLabel() {
